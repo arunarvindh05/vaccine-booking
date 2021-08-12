@@ -62,6 +62,7 @@ export default function UpdateProfile() {
   const { from } = location.state || { from: { pathname: "/" } };
   const [formdata, setFormdata] = useState(userInfo);
   const dispatch = useDispatch();
+  //calling thunk
   const handleSubmit=()=>{
     dispatch(updateUserThunk({
         ...formdata
