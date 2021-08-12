@@ -1,3 +1,10 @@
+# Description of the project
+The remaining part of vaccine booking system
+
+Added snack messages for update profile and other places 
+
+completed all the retail flow 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
