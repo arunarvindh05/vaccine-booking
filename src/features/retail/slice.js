@@ -77,7 +77,7 @@ export const newBookingThunk = createAsyncThunk(
         }
     }
 )
-
+//new thunk for update user
 export const updateUserThunk = createAsyncThunk(
     'retail/user',
     async(payload, { rejectWithValue })=>{

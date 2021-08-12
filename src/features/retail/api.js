@@ -74,7 +74,7 @@ export const newBookingAPI = async(payload)=>{
         return Promise.reject(error);
     }
 }
-
+//new API CALL for update
 export const updateUserLoginAPI = async (payload) => {
     try {
         const {data} = await fetch(`http://localhost:3001/users?email=${payload.email}&password=${payload.password}`,{
